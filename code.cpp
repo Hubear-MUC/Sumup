@@ -1,13 +1,15 @@
 #include "dincl.h"
 
-double r;int i;
+double r, i;
 
 main()
 {
- r=0;
- for(i=0;i<10;++i)
- {
-  r = r + in();
- }
- out(r);
+printf ("Entry of 0 exits.\n");
+r=0;
+do
+{
+  i = in();
+  r = r + i;
+}while (i!=0);
+out(r);
 }

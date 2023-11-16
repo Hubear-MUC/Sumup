@@ -1,22 +1,10 @@
-SumUp 1.0
+SumUp 2.0
 ---------
 
-This program sums up numbers you enter.
+Numbers entered at a prompt will be added together.
 
-The use of this came up when I had to sum up several values.
-
-Of course this also could be done with a simple calculator, however I thought this is a good idea for one of these programs here in this progress- project.
-
-Just compile and invoke the program.
-
-It will ask you for entering a number 10 times.
-
-If you want to sum up less than 10 numbers, just enter 0 for every number up to the 10th one.
-
-After entering 10 numbers the program shows the result on the screen.
-
-At the moment 10 numbers is the maximum amount of numbers to be entered. Some code to leave the number entry did not fit into the code space anymore and I did not want to implement a bigger counter than 10 to prevent the user from having to enter dozens or hundreds of zeroes to get the result.
-
+When entered 0 (the neutral element of the addition) the result is showed
+in the terminal and the program exits.
 
 
 
@@ -24,7 +12,12 @@ At the moment 10 numbers is the maximum amount of numbers to be entered. Some co
 Version history
 ---------------
 
+Version 2.0
+
+Implementing the possibility to enter an arbitrary number of numbers.
+In the previous version the number of numbers had to be 10.
+
+
 Version 1.0
 
 Initial version
-
