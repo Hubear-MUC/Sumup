@@ -1,15 +1,13 @@
-#include "dincl.h"
-
-double r, i;
-
-main()
+#include <stdio.h>
+#include <stdlib.h>
+double r;
+int i;
+main(int c, char** v)
 {
-printf ("Entry of 0 exits.\n");
-r=0;
-do
+r = 0;i=0;
+for (i = 1; i < c; ++i)
 {
-  i = in();
-  r = r + i;
-}while (i!=0);
-out(r);
+r = r + atof(v[i]);
+}
+printf ("%lf\n", r);
 }
